@@ -9,7 +9,7 @@
   "extra": {
     "bluz": {
       "module_name": "media",
-      "modules_path": "application/media"
+      "modules_path": "application/modules"
     }
   }
 }
