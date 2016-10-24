@@ -1,0 +1,15 @@
+{
+  "name": "kvasenko/bluz-media-module",
+  "type": "bluz-module",
+  "license": "MIT",
+  "description": "bluz media module",
+  "require": {
+    "kvasenko/composer-installer-bluz": "dev-composer-installer"
+  },
+  "extra": {
+    "bluz": {
+      "module_name": "media",
+      "modules_path": "application/media"
+    }
+  }
+}
