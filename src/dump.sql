@@ -1,5 +1,5 @@
 # Media for all modules
-CREATE TABLE media
+CREATE TABLE IF NOT EXISTS media
 (
   id BIGINT(20) PRIMARY KEY NOT NULL AUTO_INCREMENT,
   userId BIGINT(20) unsigned NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE media
 
 LOCK TABLES `acl_privileges` WRITE;
 
-INSERT INTO `acl_privileges` (`roleId`, `module`, `privilege`)
+REPLACE INTO `acl_privileges` (`roleId`, `module`, `privilege`)
 VALUES
   (2,'media','Management'),
   (2,'media','Upload'),
