@@ -9,7 +9,6 @@
   "extra": {
     "bluz": {
       "module_name": "media",
-      "modules_path": "application/modules",
       "required_models": "media"
     }
   }
