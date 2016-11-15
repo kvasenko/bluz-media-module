@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "bluz media module",
   "require": {
-    "kvasenko/composer-installer-bluz": "dev-composer-installer"
+    "kvasenko/composer-installer-bluz": "dev-feature/refactoring"
   },
   "extra": {
     "bluz": {
